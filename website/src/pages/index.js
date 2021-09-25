@@ -5,6 +5,7 @@ import Layout from "@theme/Layout";
 import clsx from "clsx";
 import React from "react";
 import styles from "./styles.module.css";
+import EmailSignupForm from "../components/EmailSignUpForm";
 
 const features = [
   {
@@ -85,6 +86,7 @@ function Home() {
           </section>
         )}
       </main>
+			<EmailSignupForm placeholder="Enter your email to receive updates" />
     </Layout>
   );
 }
