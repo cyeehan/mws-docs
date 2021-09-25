@@ -27,25 +27,25 @@ module.exports = {
         /**
          * Left side
          */
+        // {
+        //   /* Special navbar item type will render the link to the doc of the provided `docId`. It will get the class navbar__link--active as long as you browse a doc of the same sidebar. (from Docusaurus) */
+        //   type: "doc",
+        //   docId: "intro",
+        //   activeSidebarClassName: "navbar__link--active",
+        //   label: "Docs",
+        //   position: "left",
+        // },
         {
-          /* Special navbar item type will render the link to the doc of the provided `docId`. It will get the class navbar__link--active as long as you browse a doc of the same sidebar. (from Docusaurus) */
-          type: "doc",
-          docId: "intro",
-          activeSidebarClassName: "navbar__link--active",
-          label: "Docs",
+          to: "/docs/tips-and-tricks/introduction",
+          activeBaseRegex: "/tips-and-tricks/",
+          docId: "tipsandtricks",
+          label: "Tips and Tricks",
           position: "left",
         },
         {
           to: "/blog/",
           activeBasePath: "/blog/",
           label: "Blog",
-          position: "left",
-        },
-        {
-          to: "/docs/tips-and-tricks/introduction",
-          activeBaseRegex: "/tips-and-tricks/",
-          docId: "tipsandtricks",
-          label: "Tips and Tricks",
           position: "left",
         },
         {
